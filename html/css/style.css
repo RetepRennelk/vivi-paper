@@ -1,0 +1,39 @@
+html {
+    height:100%;
+}
+body {
+    height: 100%;
+    font-size: 1.5rem;
+}
+.row {
+    display: flex;
+}
+img {
+    max-height: 100%;
+    max-width: 100%
+}
+.left {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.right {
+    margin-left: 5px;
+    flex: 0 0 40%; // flex-grow flex-shrink flex-basis
+}
+.title + .author::before {
+	content: "Authored by: ";
+	font-weight: bold;
+}
+.author + .author::before {
+	content: "Co-author: ";
+	font-weight: bold;
+}
+.date::before {
+	content: "Date: ";
+	font-weight: bold;
+}
+
+ul>li:nth-child(even) {
+  list-style-type: none;
+}
