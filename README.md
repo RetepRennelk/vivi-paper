@@ -1,6 +1,9 @@
 # vivi-paper
 
-This set of tools is aimed to enable reflecting on Research Papers. Since for the most part reading a paper is forgetting a paper. This project is an attempt to put an end to running in this particular hamster wheel: Split pdfs in halves, transform them to images, and add comments next to them to create an annotated HTML view on the paper.
+This set of tools is aimed to enable reflection on Research Papers after note-taking. It takes the notes taken and place them next to the page from where they were lifted.
+
+The background is that for the most part reading a paper is forgetting a paper. This project is an 
+attempt to put an end to running on this particular hamster wheel. The process comprises splitting pdfs in halves, transform them to images, and add comments next to them to create an annotated HTML view on the paper.
 
 Development was done on Windows. So there are many idiosyncracies, which will prevent these tools to run on Linux - as is. If need be, one can implement the concept on Linux.
 
