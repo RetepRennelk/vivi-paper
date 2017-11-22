@@ -21,6 +21,12 @@ The command `make.py build` splits the pdf in halve per default. It is possible 
 
 ![Second split PDF](./img/split_pdf2.png)
 
-As a final result a HTML is generated.
+In addition an rst-file is created looking like this:
+
+![Restructured File](./img/restruct_init.png)
+
+*NOTE*: Copy the pre-built restuctured file from `build/rst `to the `./rst`-folder. This is in order to be able to edit freely.
+
+From here on the command `make.py html` translates the rst-file in the `./rst`-folder and as a final result a HTML is generated.
 
 ![Final HTML](./img/final_html.png)
