@@ -25,8 +25,8 @@ In addition an rst-file is created looking like this:
 
 ![Restructured File](./img/restruct_init.png)
 
-*NOTE*: Copy the pre-built restuctured file from `build/rst `to the `./rst`-folder. This is in order to be able to edit freely.
+*IMPORTANT NOTE*: Copy the pre-built restuctured file from `build/rst `to the `./rst`-folder. This is in order to be able to edit freely.
 
-From here on the command `make.py html` translates the rst-file in the `./rst`-folder and as a final result a HTML is generated.
+From here on the command `make.py html` translates the rst-file in the `./rst`-folder and as a final result an HTML-file is generated.
 
 ![Final HTML](./img/final_html.png)
