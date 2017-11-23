@@ -7,6 +7,7 @@ The background is that for the most part reading a paper is all too easily follo
 Development was done on Windows. So there are many idiosyncracies, which will prevent these tools to run on Linux - as is. If need be, one can implement the concept on Linux.
 
 List of software dependencies, which must be accessible from anywhere on the command-line:
+- Python 3.5
 - GNU Make 3.81
 - mutools
 - pandoc
